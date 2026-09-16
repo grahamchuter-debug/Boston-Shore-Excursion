@@ -53,9 +53,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Salem From Boston Cruise Port — Timing, Travel & Honest Advice",
+  title: "Salem From Boston Cruise Port — Day-Trip Timing for Cruise Calls",
   description:
-    "Can cruise passengers visit Salem from Boston? Travel time from Black Falcon, witch trials history, seasonal demand, and when Salem works — or doesn't — on a port day.",
+    "Salem from Boston cruise port — realistic cruise-day timing from Black Falcon, travel time each way, and when a Salem day trip suits (or doesn't) your hours ashore.",
   path,
 });
 

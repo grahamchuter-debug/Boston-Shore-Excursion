@@ -53,9 +53,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Boston Cruise Port Guide — Black Falcon Terminal, Transport & Tips",
+  title: "Boston Cruise Port Guide — Black Falcon, Flynn & Seaport",
   description:
-    "Boston cruise port guide for Black Falcon Cruise Terminal — walking distances, taxis, public transport, weather, tipping, USS Constitution access, and return-to-ship advice.",
+    "Boston cruise port guide — Black Falcon and Flynn Cruiseport in the Seaport, getting into central Boston, walking distances, transport, and return-to-ship tips.",
   path,
 });
 

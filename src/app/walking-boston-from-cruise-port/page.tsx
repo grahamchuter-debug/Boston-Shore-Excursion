@@ -12,9 +12,9 @@ import { pageMetadata } from "@/lib/site";
 const path = "/walking-boston-from-cruise-port";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Walking Boston From Cruise Port — Routes From Black Falcon",
+  title: "Walking Boston From Cruise Port — Black Falcon to Downtown",
   description:
-    "Walk from Black Falcon Cruise Terminal to downtown Boston — Greenway routes, distances, cobblestones, and return-to-ship timing for cruise passengers.",
+    "Walking Boston from the cruise port — Black Falcon to downtown via the Greenway, distances, cobblestones, and return-to-ship timing for cruise passengers.",
   path,
 });
 

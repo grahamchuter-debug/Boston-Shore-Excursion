@@ -8,8 +8,17 @@ export const HERO_IMAGE = "/images/boston-hero.png";
 export const HERO_IMAGE_ALT =
   "Boston harbour and waterfront skyline with historic Custom House Tower, Long Wharf, and downtown architecture viewed from the water";
 
+export const CONTACT_EMAIL = `hello@${SITE_URL.replace("https://", "")}`;
+
 export function absoluteUrl(path: string): string {
-  return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
+  const raw = path.startsWith("/") ? path : `/${path}`;
+  // Asset / file URLs keep their extension; page URLs use trailing slash.
+  if (/\.[a-zA-Z0-9]{1,8}$/.test(raw)) {
+    return `${SITE_URL}${raw}`;
+  }
+  if (raw === "/") return `${SITE_URL}/`;
+  const normalized = raw.endsWith("/") ? raw : `${raw}/`;
+  return `${SITE_URL}${normalized}`;
 }
 
 export function pageTitle(title: string): string {

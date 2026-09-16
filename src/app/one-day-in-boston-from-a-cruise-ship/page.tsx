@@ -53,9 +53,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "One Day In Boston From A Cruise Ship — 4, 6 & 8 Hour Itineraries",
+  title: "One Day in Boston From a Cruise Ship — 4, 6 & 8 Hour Plans",
   description:
-    "Sample itineraries for 4, 6, and 8 hours ashore in Boston — Freedom Trail, USS Constitution, food stops, Harvard, Salem, and return-to-ship timing.",
+    "One day in Boston from a cruise ship — practical 4, 6, and 8 hour plans covering Freedom Trail, USS Constitution, food stops, and honest return-to-ship timing.",
   path,
 });
 

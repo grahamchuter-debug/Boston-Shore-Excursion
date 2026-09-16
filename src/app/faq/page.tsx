@@ -46,12 +46,12 @@ const faqs = [
   {
     question: "How do I enquire about Boston shore excursions?",
     answer:
-      "Use our enquiry form with ship name, port date, hours ashore, and interests. We respond with options matched to your schedule and return-to-ship requirements.",
+      "Email hello@bostonshoreexcursion.com with ship name, port date, hours ashore, and interests — or use the enquire page to draft that message. Enquiry only · no checkout on this site.",
   },
   {
     question: "Is USS Constitution included on Boston tours?",
     answer:
-      "Most historic city tours and highlights tours include Charlestown Navy Yard. Interior ship access depends on security hours and maintenance — confirm when booking.",
+      "Most historic city tours and highlights tours include Charlestown Navy Yard. Interior ship access depends on security hours and maintenance — enquire with us for tour options, and reserve museum or ship tickets directly with the operator where required.",
   },
 ];
 
@@ -118,7 +118,7 @@ export default function FAQPage() {
               </li>
               <li>
                 <Link href="/enquire" className="text-blue-800 underline">
-                  Book or enquire
+                  Enquire by email
                 </Link>
               </li>
             </ul>

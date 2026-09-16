@@ -249,7 +249,7 @@ export const excursions: Excursion[] = [
     title: "Harvard & Cambridge Tour from Boston Cruise Port",
     shortTitle: "Harvard & Cambridge Tour",
     summary:
-      "Cross the Charles River to Harvard Yard, Harvard Square, and Cambridge's academic landmarks — a classic Boston shore excursion for intellectually curious cruise passengers.",
+      "Harvard & Cambridge tour from Boston cruise port — Harvard Yard, Harvard Square, and Charles River transfer timing for cruise passengers with enough hours ashore.",
     duration: "4–5 hours including transfers",
     fitness: "Easy",
     distanceFromTerminal:

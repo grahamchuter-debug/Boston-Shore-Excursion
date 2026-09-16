@@ -13,9 +13,9 @@ import { pageMetadata } from "@/lib/site";
 const path = "/harvard-cambridge-from-boston-cruise-port";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Harvard & Cambridge From Boston Cruise Port — Timing Guide",
+  title: "Harvard & Cambridge From Boston Cruise Port — 6–8 Hour Timing",
   description:
-    "Visit Harvard and Cambridge from Black Falcon Cruise Terminal — transfer time, Harvard Yard, Harvard Square, and return-to-ship advice for cruise passengers.",
+    "Harvard and Cambridge from Boston cruise port — transfer time from Black Falcon, Harvard Yard and Square, why 6–8 hour calls fit better, and why 4 hours is not realistic.",
   path,
 });
 

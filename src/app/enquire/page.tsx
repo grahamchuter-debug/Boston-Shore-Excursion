@@ -13,7 +13,7 @@ const path = "/enquire";
 export const metadata: Metadata = pageMetadata({
   title: "Enquire — Boston Shore Excursions, Massachusetts",
   description:
-    "Enquire about shore excursions in Boston, Massachusetts. Tell us your ship schedule — enquiry-only, no online booking yet.",
+    "Enquire about shore excursions in Boston, Massachusetts by email — enquiry only · no checkout. Tell us your ship, date, and hours ashore.",
   path,
 });
 
@@ -33,9 +33,9 @@ export default function EnquirePage() {
       <div className="mx-auto max-w-6xl px-4 py-10">
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Enquire" }]} />
         <PageHero
-          eyebrow="Enquiry only — no online booking yet"
+          eyebrow="Enquiry only · no checkout"
           title="Enquire about Boston shore excursions"
-          subtitle="Tell us your ship, date, and hours ashore — we recommend tours with realistic return timing from Black Falcon Cruise Terminal."
+          subtitle="Email hello@bostonshoreexcursion.com with your ship, date, and hours ashore — we recommend options with realistic return timing from Black Falcon Cruise Terminal."
         />
         <div className="mt-10 grid gap-10 lg:grid-cols-3">
           <div className="lg:col-span-2">

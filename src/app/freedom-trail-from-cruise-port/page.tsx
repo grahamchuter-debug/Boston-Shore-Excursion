@@ -53,9 +53,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Freedom Trail From Boston Cruise Port — Distance, Timing & Tips",
+  title: "Freedom Trail From Boston Cruise Port — Walk Timing for Cruise Days",
   description:
-    "Can cruise passengers walk the Freedom Trail from Black Falcon? Distance, realistic timing, best sections, guided vs independent, and return-to-ship advice.",
+    "Freedom Trail from Boston cruise port — walking distance from Black Falcon, realistic port-day sections, guided vs independent options, and return-to-ship timing.",
   path,
 });
 
